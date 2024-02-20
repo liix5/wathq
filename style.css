@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+header{
+  height: 112px;
+  background-color: #4D61F4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+}
+header div{
+  display: flex;
+  gap: 55px;
+}
+header div img{
+  height: 35px;
+}
+header img{
+ cursor: pointer;
+}
+nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 112px;
+  background-color: #4D61F4;
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 334px;
+  padding-bottom: 130px;
+}
+nav div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+img{
+  cursor: pointer;
+}
+nav div img{
+  height: 28px;
+}
+
+main{
+  width: 382px;
+  height: 90vh;
+  background-color: #F1F6F9;
+  margin-left: 112px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+main h2{
+  color: #4D61F4;
+  padding-top:24px;
+  padding-left: 20px;
+  padding-bottom: 18px;
+  font-size: 20px;
+}
+main hr{
+  border:0.1px rgba(77, 97, 244, 0.28) solid ;
+}
+main .cont>hr{
+  border: 0.1px #4D61F4 solid ;
+}
+.contact{
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.contact div{
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.contact  img{
+  padding-left: 80%;
+}
+.cont{
+  width: 100%;
+}
+
+.link div{
+  margin: 12px;
+  padding: 12px;
+  display: flex;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: white;
+  gap: 30px;
+  justify-content: end;
+  font-weight: 600;
+  color: #4D61F4;
+  font-size: large;
+  cursor: pointer;
+  filter: drop-shadow(0px 5px 3px #515151);
+}
+.link p{
+ text-align: center;
+ margin-top:30px ;
+ color: #989899;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+footer p:first-child{
+  border-top: 0.1px #4D61F4 solid;
+}
+
+
