@@ -27,7 +27,8 @@
     </div>
     <img src="./img/ham.png" alt="">
   </nav>
-  <main>
+  <section>
+    <main>
     
     <div class="cont">
       <h2>voice call</h2>
@@ -68,7 +69,24 @@
     </footer>
     
   </main>
+  <div class="mainCont">
+    <div class="videos">
+    <video id="webcamVideo" autoplay playsinline></video> 
+    <video id="remoteVideo" autoplay playsinline></video>
+  </div>
+    <button id="webcamButton">Start webcam</button>
+    <div>
+      <input id="callInput" />
+    <button id="answerButton" disabled>Answer</button>
+    </div>
+    
+    <button id="hangupButton" disabled>Hangup</button>
+  </div>
+  
 
+  </section>
+  
+  
   <script src="./sign-to-text.js"></script>
   <script src="./text-to-speech.js"></script>
 </body>
